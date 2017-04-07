@@ -1,5 +1,8 @@
-#Change directory and copy docker file to it. 
+#Change directory
 cd mydockerbuild
+
+#copy docker file
+cp dockerfile mydockerbuild\dockerfile
 
 #Bulid the image
 docker build -t docker-assignment1 .
